@@ -1,0 +1,22 @@
+{
+  "description": "A Dialogflow ES assistant that helps parents connect with school information and support.",
+  "language": "en",
+  "shortDescription": "Parent support assistant",
+  "examples": "hello, hi, can you help me",
+  "linkToDocs": "",
+  "displayName": "ParentConnect AI",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "defaultTimezone": "Asia/Kolkata",
+  "isPrivate": true,
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true,
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": 0.0,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": "",
+  "enableSpellCorrection": false
+}

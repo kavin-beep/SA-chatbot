@@ -1,0 +1,42 @@
+{
+  "id": "84848470-661c-4d06-841b-15e34d998683",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi! Welcome to ParentConnect AI. How can I help you today?",
+            "Hello! I am ParentConnect AI, your school support assistant. What would you like help with?",
+            "Welcome to ParentConnect AI! How may I support you today?",
+            "Good day! What school-related information can I help you find?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

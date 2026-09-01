@@ -1,0 +1,14 @@
+# Dialogflow and Google Cloud credentials
+*-credentials.json
+service-account*.json
+.env
+.env.*
+
+# Local and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated archives
+*.zip
