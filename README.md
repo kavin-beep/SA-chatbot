@@ -4,6 +4,10 @@
 
 ### A friendly Dialogflow ES foundation for parent-school support
 
+<a href="https://github.com/kavin-beep/SA-chatbot">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=720&lines=ParentConnect+AI;Dialogflow+ES+Chatbot+Prototype;Connecting+Parents+and+Schools;Ready+to+Import+and+Build+Upon" alt="Animated ParentConnect AI project information" />
+</a>
+
 [![Dialogflow ES](https://img.shields.io/badge/Dialogflow-ES-FF9800?logo=dialogflow&logoColor=white)](https://cloud.google.com/dialogflow/es/docs)
 [![Language](https://img.shields.io/badge/language-English-2563EB)](#current-capabilities)
 [![Status](https://img.shields.io/badge/status-starter_agent-22C55E)](#project-status)
@@ -16,16 +20,16 @@
 
 ## Overview
 
-ParentConnect AI is a starter chatbot built with **Google Dialogflow ES**. It provides a clean base for a parent-support assistant that can later answer school questions, guide families to resources, and improve communication between parents and the school.
+ParentConnect AI is a starter chatbot built with **Google Dialogflow ES**. This repository preserves the original chatbot export and provides a clean base for a parent-support assistant that can later answer school questions, guide families to resources, and improve communication between parents and the school.
 
 The repository contains a Dialogflow ES agent export. It is not a Node.js application, and `package.json` is included only because it is part of the Dialogflow export format.
 
 ## Current capabilities
 
-- Welcomes users with ParentConnect-specific messages.
+- Uses the original Dialogflow welcome responses.
 - Recognizes common English greetings.
-- Handles unmatched questions with clear fallback prompts.
-- Uses the `Asia/Kolkata` timezone.
+- Uses the original Dialogflow fallback responses for unmatched questions.
+- Preserves the original exported agent configuration.
 - Contains no API keys, service-account files, or project credentials.
 
 > [!IMPORTANT]
@@ -65,7 +69,7 @@ After importing, verify the following:
 - `hello` triggers **Default Welcome Intent**.
 - An unrelated phrase triggers **Default Fallback Intent**.
 - All responses are shown in English.
-- The agent timezone is `Asia/Kolkata`.
+- The imported settings match the original agent export.
 - Dialogflow reports no validation or training errors.
 
 ## Suggested next intents
@@ -81,7 +85,7 @@ After importing, verify the following:
 
 ## Project status
 
-The foundation is ready for import and extension. The next milestone is to add verified school content, training phrases, and a safe handoff path to a staff member.
+The original chatbot files are preserved and ready for import. The next milestone is to add verified school content, training phrases, and a safe handoff path to a staff member.
 
 ## Privacy and safety
 
