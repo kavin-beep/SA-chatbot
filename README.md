@@ -5,7 +5,7 @@
 ### A friendly Dialogflow ES foundation for parent-school support
 
 <a href="https://github.com/kavin-beep/SA-chatbot">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=720&lines=ParentConnect+AI;Dialogflow+ES+Chatbot+Prototype;Connecting+Parents+and+Schools;Ready+to+Import+and+Build+Upon" alt="Animated ParentConnect AI project information" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=720&lines=ParentConnect+AI;Dialogflow+ES+Chatbot+Prototype[...]
 </a>
 
 [![Dialogflow ES](https://img.shields.io/badge/Dialogflow-ES-FF9800?logo=dialogflow&logoColor=white)](https://cloud.google.com/dialogflow/es/docs)
@@ -20,7 +20,7 @@
 
 ## Overview
 
-ParentConnect AI is a starter chatbot built with **Google Dialogflow ES**. This repository preserves the original chatbot export and provides a clean base for a parent-support assistant that can later answer school questions, guide families to resources, and improve communication between parents and the school.
+ParentConnect AI is a starter chatbot built with **Google Dialogflow ES**. This repository preserves the original chatbot export and provides a clean base for a parent-support assistant that can l[...]
 
 The repository contains a Dialogflow ES agent export. It is not a Node.js application, and `package.json` is included only because it is part of the Dialogflow export format.
 
@@ -49,6 +49,17 @@ SA-chatbot/
 └── README.md
 ```
 
+## Download and Import
+
+You can download the Dialogflow zip file containing all intents and entities from this repository and import them directly into your Dialogflow ES agent:
+
+1. **Download the ZIP file** from this repository containing `agent.json`, `package.json`, and the `intents/` directory.
+2. Navigate to the [Dialogflow ES console](https://dialogflow.cloud.google.com/).
+3. Go to **Settings → Export and Import**.
+4. Use **Import from ZIP** to merge the intents and entities into your existing agent, or **Restore from ZIP** to replace the current draft with this agent.
+
+This approach allows you to quickly import all pre-configured intents and entities without manual setup.
+
 ## Import into Dialogflow ES
 
 1. Download or clone this repository.
@@ -76,12 +87,12 @@ After importing, verify the following:
 
 | Intent | Example questions |
 | --- | --- |
-| School timings | “What time does school start?” |
-| Attendance | “How do I report an absence?” |
-| Events | “What events are coming up?” |
-| Fees | “Where can I find fee information?” |
-| Transport | “Who do I contact about the school bus?” |
-| Human support | “I need to speak with the school office.” |
+| School timings | "What time does school start?" |
+| Attendance | "How do I report an absence?" |
+| Events | "What events are coming up?" |
+| Fees | "Where can I find fee information?" |
+| Transport | "Who do I contact about the school bus?" |
+| Human support | "I need to speak with the school office." |
 
 ## Project status
 
@@ -92,11 +103,11 @@ The original chatbot files are preserved and ready for import. The next mileston
 - Do not commit service-account JSON files, API keys, access tokens, or student records.
 - Avoid collecting sensitive student information through free-text messages.
 - Use verified school sources for answers and provide a human contact for high-impact questions.
-- Review Dialogflow interaction-log settings against the school’s privacy requirements before deployment.
+- Review Dialogflow interaction-log settings against the school's privacy requirements before deployment.
 
 ## Contributing
 
-When adding an intent, include varied training phrases, concise responses, and a fallback or human-support path where appropriate. Test the agent in Dialogflow ES before exporting an updated version.
+When adding an intent, include varied training phrases, concise responses, and a fallback or human-support path where appropriate. Test the agent in Dialogflow ES before exporting an updated versi[...]
 
 ---
 
