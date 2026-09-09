@@ -3,6 +3,7 @@
 # ParentConnect AI
 
 ### A friendly Dialogflow ES foundation for parent-school support
+## chatbot link:## https://kavin-beep.github.io/SA-chatbot/
 
 <a href="https://github.com/kavin-beep/SA-chatbot">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2563EB&center=true&vCenter=true&width=720&lines=ParentConnect+AI;Dialogflow+ES+Chatbot+Prototype;Connecting+Parents+and+Schools;Ready+to+Import+and+Build+Upon" alt="Animated ParentConnect AI project information" />
